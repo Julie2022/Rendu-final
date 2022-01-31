@@ -188,8 +188,8 @@
 .bootstrap-switch.bootstrap-switch-disabled .bootstrap-switch-label,
 .bootstrap-switch.bootstrap-switch-readonly .bootstrap-switch-label,
 .bootstrap-switch.bootstrap-switch-indeterminate .bootstrap-switch-label {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
   cursor: default !important; }
 
 .bootstrap-switch.bootstrap-switch-animate .bootstrap-switch-container {

@@ -481,7 +481,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .Portfolio #Portfolio-flters li:hover, .Portfolio #Portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #b472fc;
 }
 .Portfolio #Portfolio-flters li:last-child {
   margin-right: 0;

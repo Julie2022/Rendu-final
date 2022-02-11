@@ -519,15 +519,16 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+ background: rgba(184, 141, 245, 0.95);
+
   transition: 0.3s;
   width: 50%;
 }
 .Portfolio .Portfolio-wrap .Portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(153, 90, 195, 0.95);
 }
 .Portfolio .Portfolio-wrap .Portfolio-links a + a {
-   border-left: 1px solid #37b3ed;
+   border-left: px solid #37b3ed;
 }
 .Portfolio .Portfolio-wrap:hover::before {
   top: 0;

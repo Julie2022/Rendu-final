@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+font-family: 'Shadows Into Light', cursive;
   color: #272829;
 }
 
 a {
-  color: #149ddd;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #fff;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #transparent;
   color: #fff;
   text-decoration: none;
 }
@@ -157,10 +157,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #de95fa;;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #;
+};
 }
 
 /* Mobile Navigation */
@@ -218,8 +219,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #Acceuil h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 77px;
+  font-weight: 70;
   line-height: 56px;
   color: #fff;
 }
@@ -233,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #8c8989;
 }
 @media (min-width: 1024px) {
   #Acceuil {
@@ -261,14 +262,15 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: rgba(203, 168, 247, 0.75);
+
 }
 
 .section-title {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -492,7 +494,7 @@ section {
 }
 .Portfolio .Portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+   background: rgba(89, 89, 91, 0.75);
   position: absolute;
   left: 0;
   right: 0;
@@ -525,7 +527,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 .Portfolio .Portfolio-wrap .Portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+   border-left: 1px solid #37b3ed;
 }
 .Portfolio .Portfolio-wrap:hover::before {
   top: 0;

@@ -648,36 +648,38 @@ section {
   padding-bottom: 130px;
 }
 .Contact .info {
-  padding: 30px;
-  background: #fff;
+  padding: 50px;
+  background: rgba(178, 113, 242, 0.79);
+
+
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .Contact .info i {
   font-size: 20px;
-  color: #149ddd;
+ color: #a900ff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #fefeff;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 40px;
   transition: all 0.3s ease-in-out;
 }
 .Contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
   color: #050d18;
 }
 .Contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: ##9914dd;
+  color: #343639;
 }
 .Contact .info .email p {
   padding-top: 5px;

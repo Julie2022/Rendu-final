@@ -23,8 +23,15 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, {
   font-family: "Raleway", sans-serif;
+ }  
+h1, h2, h3, h4 {
+    color: #bd88ff
+}
+h6 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #bd88ff
 }
 
 /*--------------------------------------------------------------
